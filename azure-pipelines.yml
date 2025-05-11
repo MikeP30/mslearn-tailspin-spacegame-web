@@ -12,7 +12,7 @@ steps:
   displayName: 'Use .NET SDK 8.x'
   inputs:
     packageType: sdk
-    version: '6.x'
+    version: '8.x'
 
 - task: Npm@1
   displayName: 'Run npm install'
